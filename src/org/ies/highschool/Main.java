@@ -11,6 +11,7 @@ public class Main {
         StudentReader studentReader = new StudentReader(scanner);
         Student student =studentReader.read();
         System.out.println(" mostrando datos del estudiante" +student);
+        System.out.println("mostrado informasion");
         student.showInfo();
     }
 }
